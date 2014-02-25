@@ -1,0 +1,14 @@
+# MemCacheStore and Overview of Fragment Caching
+
+### [Fragment Caching](http://guides.rubyonrails.org/caching_with_rails.html#fragment-caching)
+* Instead of caching the entire page, only a portion is cached
+* Russian Doll Caching
+  * Advanced Fragment Caching
+  * Caching of multiple fragments
+  * [Cache Digest](https://github.com/rails/cache_digests/wiki)
+    * default in Rails 4
+    * http://railscasts.com/episodes/387-cache-digests
+
+### MemCacheStore
+* http://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html
+* http://api.rubyonrails.org/classes/ActiveSupport/Cache/MemCacheStore.html
